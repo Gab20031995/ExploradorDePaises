@@ -65,7 +65,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
     ```bash
     # 1. Clona el repositorio si lo tienes en Git
-    git clone <URL_DEL_REPOSITORIO>
+    git clone [<URL_DEL_REPOSITORIO>](https://github.com/Gab20031995/ExploradorDePaises.git)
     cd <NOMBRE_DE_LA_CARPETA>
 
     # 2. Crea y activa un entorno virtual (recomendado)
@@ -80,9 +80,9 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
     # con tus credenciales de MySQL.
     DB_CONFIG = {
         'host': "127.0.0.1", 
-        'port': "3307",
-        'user': "tu_usuario_mysql", 
-        'password': "tu_contraseña_mysql",
+        'port': "tu puerto mysql",
+        'user': "tu usuario mysql", 
+        'password': "tu contraseña mysql",
         'database': "countries_db"
     }
 
@@ -99,9 +99,13 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 ## ## Estructura del Proyecto
 
-.
+
 ├── index.html         # Archivo principal de la interfaz
+
 ├── style.css          # Hoja de estilos
+
 ├── script.js          # Lógica del frontend y llamadas a la API
+
 ├── main.py            # Servidor backend con FastAPI y lógica de negocio
+
 └── README.md          # Este archivo
